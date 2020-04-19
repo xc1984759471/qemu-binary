@@ -4,8 +4,8 @@ echo '开始卸载。。。'
 rm -rf /usr/local/bin/qemu-* /usr/local/bin/ivshmem-* /usr/local/bin/elf2dmp /usr/local/bin/virtfs-proxy-helper
 rm -rf /usr/local/share/qemu /usr/local/share/applications/qemu.desktop
 rm -rf /usr/local/libexec/qemu-*
-
 echo '卸载完成'
+rm -rf /usr/local/bin/uninstall_qemu
 else
 echo "请确保你是以特权运行！"
 fi
