@@ -7,7 +7,7 @@
 或者直接写二进制所在路径
 
 2.运行./install进行安装（需要root)
-如需卸载，执行./uninstall
+如需卸载，执行uninstall_qemu
 
 查看帮助请前往https://www.qemu.org/docs/master/
 获取源码及反馈问题请前往qemu存储库https://github.com/qemu/qemu
