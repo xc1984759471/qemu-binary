@@ -8,7 +8,7 @@ cp -r share/* /usr/local/share
 mkdir /usr/local/libexec
 echo 'cp -r libexec/* /usr/local/libexec'
 cp -r libexec/* /usr/local/libexec
-chmod 755 /usr/locql/bin/*
+chmod 755 /usr/local/bin/*
 echo '安装完毕'
 else
 echo "请确保你是以特权运行！"
