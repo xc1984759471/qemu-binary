@@ -8,8 +8,9 @@ cp -r share/* /usr/local/share
 mkdir /usr/local/libexec
 echo 'cp -r libexec/* /usr/local/libexec'
 cp -r libexec/* /usr/local/libexec
+cat uninstall >> /usr/local/bin/uninstall_qemu
 chmod 755 /usr/local/bin/*
-echo '安装完毕'
+echo '安装完毕,如需'
 else
 echo "请确保你是以特权运行！"
 fi
