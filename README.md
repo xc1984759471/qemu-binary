@@ -11,3 +11,5 @@
 
 查看帮助请前往https://www.qemu.org/docs/master/
 获取源码及反馈问题请前往qemu存储库https://github.com/qemu/qemu
+
+因本人时间有限，可能来不及更新，欢迎各位共同维护
