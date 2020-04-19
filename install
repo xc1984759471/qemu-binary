@@ -4,10 +4,11 @@ echo '开始安装。。。'
 echo 'cp -r bin/* /usr/local/bin'
 cp -r bin/* /usr/local/bin
 echo 'cp -r share/qemu /usr/local/share'
-cp -r share/qemu /usr/local/share
+cp -r share/* /usr/local/share
 mkdir /usr/local/libexec
 echo 'cp -r libexec/* /usr/local/libexec'
 cp -r libexec/* /usr/local/libexec
+chmod 755 /usr/locql/bin/*
 echo '安装完毕'
 else
 echo "请确保你是以特权运行！"
