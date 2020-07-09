@@ -10,6 +10,9 @@
 如需卸载，执行uninstall_qemu
 
 查看帮助请前往https://www.qemu.org/docs/master/
+
 获取源码及反馈问题请前往qemu存储库https://github.com/qemu/qemu
+
+(推荐使用清华大学的源，克隆速度更快,有关帮助https://mirrors.tuna.tsinghua.edu.cn/help/qemu.git/)
 
 因本人时间有限，可能来不及更新，欢迎各位共同维护
